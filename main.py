@@ -1,8 +1,9 @@
-
+from tools.weather_tools import mcp
 
 def main():
     print("Hello from weather!")
 
 
 if __name__ == "__main__":
-    main()
+     # Initialize and run the server
+    mcp.run(transport='stdio')
